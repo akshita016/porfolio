@@ -36,7 +36,7 @@
         </div>
         <div class="about-row">
             <div class="about-left-col">
-               <img src="profile.jpeg" height="450px" >
+               <img src="profile.jpg" height="450px" >
             </div>
             <div class="about-right-col">
             
