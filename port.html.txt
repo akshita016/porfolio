@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equive="X-UA-compatible" contents="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Personal Portfolio website</title>
+      <link rel="stylesheet" href="menu.css">
+        <link href="https://fonts.google.com/specimen/Josefin+Sans?query=jos" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    
+</head>
+</head>
+<body>
+   <div class="hero">
+      <nav>
+            <div class="logo"><h1 class="animated infinite bounce"> Akshita </h1></div>
+           <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">HIRE ME</a></li>
+           </ul>
+      </nav>
+   <div class="detel">
+        <h1>I'M AKSHITA<span>SRIVASTAVA</span></h1>
+         <p>This is my official portfolio website to shows all
+             <br>Details and work exiperiences
+         </p><br>
+   <a href="#">DOWNLOAD CV</a>
+   </div>
+    </header>
+    <section id="about">
+        <div class="section-info">
+             <h1>About</h1>
+             <p>Who i am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+               <img src="profile.jpeg" height="450px" >
+            </div>
+            <div class="about-right-col">
+            
+            <p id="title">
+                <b> HELLO, I'm akshita & I'm a Web Developer<br> </b>
+            </p>
+            <p>
+                <br>So here i'm gonna to explain that who i am. <br>
+                I'm . Currently i am pursuing Bachelor of technology <br> from United College of Engineering and Research.
+                I am Web Developer <br> but currently i'm also working on frontend like Python ,Java etc. This <br> Portfolio website is just 
+                a part of my project which is built using HTML and <br> CSS.This is all about me.
+            </p>
+
+            <button class="c-btn">Download CV</button>
+        </div>
+        </div>
+    </section> 
+
+       <section id="Skills">
+            <div class="section-info">
+               <h1 style="color: black;">Skills's</h1>
+            </div>
+            <center><div class="skills-row">
+               <div class="skills-left-col">
+                  <p>
+                    I am Web Developer but currently i'm also <br> working on frontend like Python ,Java etc. <br> This Portfolio website is just 
+                    a part of my <br> project which is built using HTML and CSS
+                  </p>
+                  <button class="c-btn">Read more</button>
+               </div>
+               <div class="skills-right-col"></div>
+               <div class="progress-div">
+                  <p>
+                  <span>HTML</span><br>
+                  <progress value="80" max="100"></progress>
+                  <span>80%</span>
+                </p>
+                  <p>
+                    <span>CSS</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                  </p>
+                  <p>
+                    <span>JAVASCRIPT</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>60%</span>
+                  </p>
+                  <p>
+                    <span>BOOTSTRAP</span><br>
+                    <progress value="80" max="100"></progress>
+                    <span>60%</span>
+                  </p>
+               </div>
+            </div>
+       </section>
+
+       <section id="services">
+        <div class="section-info">
+           <h1>Services</h1>
+           <p>What We Provide</p>
+        </div>
+        <div class="service-row">
+          <div class="service-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKASRuOKri5-hojE90MmcYWRO4khtnOX1GqA&usqp=CAU">
+            <h2>Web Development</h2>
+            <p>
+                Every website should be built with <br> two primary goals:Firstly it needs to <br> work across all devices.Secondly,it <br> needs to be fast as possible.
+            </p>
+          </div>
+          <div class="service-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKASRuOKri5-hojE90MmcYWRO4khtnOX1GqA&usqp=CAU">
+            <h2>Web Development</h2>
+            <p>
+                A landing page is one of the best <br> web development projects on which i <br> have worked already. I learned how to <br> add coloumns, divide sections, <br> arrange items. 
+            </p>
+          </div>
+          <div class="service-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKASRuOKri5-hojE90MmcYWRO4khtnOX1GqA&usqp=CAU">
+            <h2>Web Development</h2>
+            <p>
+               In upcoming days i will make project <br> on TEMPERATURE CONVERTER WEBSITE which is task 3 of oasis.
+            </p> 
+          </div>
+        </div>
+       </section>
+
+       <section id="contact">
+        <div class="section-info">
+          <h1> Stay in Touch </h1>
+          <p style="color: red;">We are Available</p>
+        </div>
+             <div class="contact-row">
+                <div class="contact-left-col">
+                </div>
+                <div class="contact-right-col">
+                    <form>
+                        <input type="text" name="" placeholder="Name">
+                        <input type="email" name="" placeholder="E-mail">
+                        <br>
+                        <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                        <br>
+                        <button class="c-btn">Submit</button>
+                    </form>
+                </div>
+             </div>   
+       </section>
+
+
+<section id="footer">
+   <h2>Developed by AKSHITA SRIVASTAVA</h2>
+   <div class="social-media">
+    <div class="facebook"><i class="fa-brands fa-facebook-f"></i></div>
+    <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+   <div class="twitter"> <i class="fa-brands fa-twitter"></i></div>
+    <div class="linkedin"><i class="fa-brands fa-linkedin"></i></div>
+</div>
+</section>
+
+</body>
+</html>
+    
+        

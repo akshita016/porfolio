@@ -1,0 +1,235 @@
+*{ 
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+body{
+      width: 100%;
+     height: 100vh;
+     background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+.hero{
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     background: #eff4fd;
+  }
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+      display:inline-block;
+      list-style: none;
+      margin: 10px 20px;
+  }
+nav ul li{
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+  }
+nav ul li a:hover{
+      color: red;
+  }
+
+.detel{
+     margin-left: 8%;
+     margin-top: 15%;
+}
+
+.detel h1{
+     font-size: 50px;
+     color: #212121;
+     margin-bottom: 20px;
+}
+
+span{
+    color: olive;
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+  .images img{
+       height: 100;
+       position: absolute;
+       left: 50%;
+       bottom: 0;
+       transform: translateX(-50%);
+       transition: bottom is, left is;
+}
+  .images:hover .shape{
+        bottom: 40px;
+}
+ .images:hover .baby{
+        left: 45%;
+  }
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+}
+.section-info p{
+    font-size: 25px;
+    color: #6c67b6;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+        width: 100%;
+        padding: 50px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-right-col p{
+    font-size: 20px;
+    text-align: justify;
+}
+#Skills{
+    padding: 100px 50px;
+     background: url(https://pennywise.sg/wp-content/uploads/2017/03/blur-background-computer.png);
+    background-size: cover;
+    color: black;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-left-col{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.skills-right-col{
+    flex-basis: 50%;
+}
+progress{
+    width: 130%;
+}
+#service{
+    padding: 100px 50px;
+}
+.service-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+}
+.service-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 20px;
+}
+.service-box:hover{
+    background: #6c67b6;
+    color: white;
+    transition: 0.4s;
+}
+.service-box img{
+    width: 60%;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(160deg,#6c67b6 45%,white 0%);
+}
+.contact-left-col{
+    flex-basis: 50%;
+}
+.contact-right-col{
+    flex-basis: 50%;
+}
+.contact-right-col form{
+    text-align: center;
+}
+.contact-right-col form h2{
+    margin-bottom: 20px;
+}
+.contact-right-col form input{
+      width: 60%;
+      padding: 10px;
+      margin-bottom: 10px;
+}
+.contact-right-col form textarea{
+    width: 60%;
+    padding: 10px;
+}
+#footer{
+    background: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
